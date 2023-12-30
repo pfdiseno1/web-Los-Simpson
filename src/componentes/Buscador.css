@@ -8,16 +8,20 @@
 }
 .buscador p{
     display: flex;
-    font-size: 25px;
-    font-family: cursive;
+    font-size: 45px ;
+    font-family: cursive color rgb(223, 223, 66);
     font-weight: 600;
+    color: antiquewhite;
 
 }
+
 .buscador input{
+    margin: 15px;
     box-shadow: 5px 5px 15px;
     border-radius: 12%;
-    width: 300px;
+    border: solid antiquewhite;
+    width: 250px;
     height: 50px;
-    background-image: url(../assets/background-nubes.jpg);
+    background-image: url(../assets/donas.jpg)
     
 }

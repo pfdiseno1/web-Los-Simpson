@@ -9,7 +9,7 @@ function App() {
   const [characters, setCharacters] = useState([]);
   const [info, setInfo] = useState([])
 
-  const initialUrl = 'https://apisimpsons.fly.dev/api/personajes?limit=10'
+  const initialUrl = 'https://apisimpsons.fly.dev/api/personajes?limit=3'
 
   function fetchCharacters(url) { 
     fetch(url)

@@ -1,19 +1,23 @@
 body{
-    background-image: url(../assets/simpsons-en-bici-background-fx10eork97d81isc.jpg);
+    background-image: url(../assets/bart.webp);
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    background-size: 100%;
 }
 .acceso{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 60px;
-    color: yellow;
+    color: rgb(223, 223, 66);
     font-family: cursive;
 }
 
-.inicio-submit{
-    font-size: 60px;
-    opacity: 31%;        
-
+.boton{
+    width: 150px;
+    display: flex;
+    justify-content: center;
 }
+
+
+
+    

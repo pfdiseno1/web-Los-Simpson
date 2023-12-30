@@ -6,7 +6,9 @@ function Inicio() {
   return (
     <div className='acceso'>DIRECTO A LA 
 
-<Link to={"/app"}> <button type="submit">APP</button></Link>
+<div className='boton'>
+<Link to={"/app"}> <button type="submit">LOS SIMPSONS</button></Link>
+</div>
     </div>
   )
 }
